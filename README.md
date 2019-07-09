@@ -3,13 +3,13 @@ A collection of functions that can be used to manipulate raw Lottie Animation JS
 
 ## 🚀 Getting Started
 
-Using [npm]():
+Using [npm](https://www.npmjs.com/package/@cawfree/lottie-mutate):
 
 ```bash
 npm install --save @cawfree/lottie-mutate
 ```
 
-Using [yarn]():
+Using [yarn](https://www.npmjs.com/package/@cawfree/lottie-mutate):
 
 ```bash
 yarn add @cawfree/lottie-mutate
