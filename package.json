@@ -1,0 +1,16 @@
+{
+  "name": "@cawfree/lottie-mutate",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "TERM=dumb jest --watch --verbose false"
+  },
+  "description": "A collection of functions useful for manipulating raw Lottie Animation JSON at runtime.",
+  "main": "index.js",
+  "repository": "https://github.com/cawfree/lottie-mutate",
+  "author": "Alex Thomas (@cawfree)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
