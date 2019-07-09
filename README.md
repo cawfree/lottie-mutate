@@ -26,13 +26,11 @@ const anim = require('/path/to/animation.json');
 
 const animFilledWithWhite = replaceAllColors(
   anim,
-  1.0,
-  1.0,
-  1.0,
+  "white",
 );
 ```
 
-Returns the supplied animation with all color references overrided with your values of `red`, `green` and `blue`, which are floating point numbers between `0` and `1`. Your original object is left unchanged.
+Returns the supplied animation with all color references overrided with your value for color, which is a CSS color string (See [color-string](https://www.npmjs.com/package/color-string)). Your original object is left unchanged.
 
 ## ✌️  License
 [MIT](https://opensource.org/licenses/MIT)

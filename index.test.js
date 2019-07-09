@@ -11,9 +11,7 @@ it('that we can parse and modify color content', function() {
     .toEqual(87);
   const overrided = replaceAllColors(
     anim,
-    0.91,
-    0.3,
-    0.24,
+    'red',
   );
   const overridedColors = getColors(overrided);
   expect(overridedColors.length)
